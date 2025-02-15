@@ -39,6 +39,14 @@ nav.navigation {
   font-weight: 500;
 }
 
+nav a.nav-icons {
+  color: #2e2f42;
+}
+
+nav a.nav-icons:focus{
+  color: #404bbf;
+}
+
 nav a.nav-icons:hover {
   color: #404bbf;
 }
@@ -46,13 +54,16 @@ nav a.nav-icons:hover {
 address {
   font-style: normal;
 }
-
 .address-info {
-  color: #2e2f42;
+  color: #434455;
   font-weight: 500;
 }
 
 .address-info:hover {
+  color: #404bbf;
+}
+
+.address-info:focus {
   color: #404bbf;
 }
 
@@ -65,6 +76,7 @@ h1.effective {
   line-height: 1.07;
   text-align: center;
   color: #ffffff;
+  letter-spacing: 0.02em;
 }
 
 section.top-block > button {
@@ -89,6 +101,7 @@ section.mottos h3 {
   font-size: 20px;
   line-height: 1.2;
   color: #2e2f42;
+  letter-spacing: 0.02em
 }
 
 section.mottos p {
@@ -105,6 +118,19 @@ section.team h2 {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+  letter-spacing: 0.02em;
+}
+
+section.team li.members{
+  background-color: #FFFFFF
+}
+
+section.team h3.team-member{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 section.portfolio h2 {
@@ -113,6 +139,7 @@ section.portfolio h2 {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+  letter-spacing: 0.02em;
 }
 
 section.portfolio h3 {
@@ -120,6 +147,7 @@ section.portfolio h3 {
   font-size: 20px;
   line-height: 1.2;
   color: #2e2f42;
+  letter-spacing: 0.02em;
 }
 
 footer.footer {
