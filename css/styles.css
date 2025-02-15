@@ -79,7 +79,7 @@ h1.effective {
   letter-spacing: 0.02em;
 }
 
-section.top-block > button {
+section.top-block > button.order-service {
   background-color: #4d5ae5;
   font-weight: 500;
   line-height: 1.5;
@@ -88,11 +88,11 @@ section.top-block > button {
   cursor: pointer;
 }
 
-section.top-block > button:hover {
+section.top-block > button.order-service:hover {
   background-color: #404bbf;
 }
 
-section.top-block > button:focus {
+section.top-block > button.order-service:focus {
   background-color: #404bbf;
 }
 
