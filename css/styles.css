@@ -3,8 +3,9 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 2%;
   background-color: #ffffff;
+  color: #434455;
+  letter-spacing: 0.02em;
 }
 
 ul {
@@ -22,8 +23,8 @@ a:visited {
 a.logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
-  line-height: 21px;
-  letter-spacing: 3%;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   font-size: 18px;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -42,6 +43,10 @@ nav a.nav-icons:hover {
   color: #404bbf;
 }
 
+address {
+  font-style: normal;
+}
+
 .address-info {
   color: #2e2f42;
   font-weight: 500;
@@ -49,4 +54,82 @@ nav a.nav-icons:hover {
 
 .address-info:hover {
   color: #404bbf;
+}
+
+section.top-block {
+  background-color: #2e2f42;
+}
+
+h1.effective {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  color: #ffffff;
+}
+
+section.top-block > button {
+  background-color: #4d5ae5;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+section.top-block > button:hover {
+  background-color: #404bbf;
+}
+
+section.top-block > button:focus {
+  background-color: #404bbf;
+}
+
+section.mottos h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
+}
+
+section.mottos p {
+  color: #434455;
+}
+
+section.team {
+  background-color: #f4f4fd;
+}
+
+section.team h2 {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+section.portfolio h2 {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+section.portfolio h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
+}
+
+footer.footer {
+  background-color: #2e2f42;
+}
+
+footer > a.logo > span.studio-white {
+  color: #f4f4fd;
+}
+
+footer p.info {
+  color: #f4f4fd;
 }
